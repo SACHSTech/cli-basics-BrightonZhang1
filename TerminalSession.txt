@@ -1,1 +1,24 @@
-
+~/cli-basics-BrightonZhang1-4$ pwd
+/home/runner/cli-basics-BrightonZhang1-4
+~/cli-basics-BrightonZhang1-4$ mkdir CLIBasicsFolder
+~/cli-basics-BrightonZhang1-4$ ls
+CLIBasicsFolder  README.md  replit.nix  TerminalSession.txt
+~/cli-basics-BrightonZhang1-4$ cd CLIBasicsFolder
+~/cli-basics-BrightonZhang1-4/CLIBasicsFolder$ touch myfile.txt
+~/cli-basics-BrightonZhang1-4/CLIBasicsFolder$ echo Brighton ICS4Ub >> myfile.txt
+~/cli-basics-BrightonZhang1-4/CLIBasicsFolder$ cat myfile.txt
+Brighton ICS4Ub
+~/cli-basics-BrightonZhang1-4/CLIBasicsFolder$ ls
+myfile.txt
+~/cli-basics-BrightonZhang1-4/CLIBasicsFolder$ cp myfile.txt myfile_copy.txt
+~/cli-basics-BrightonZhang1-4/CLIBasicsFolder$ ls
+myfile_copy.txt  myfile.txt
+~/cli-basics-BrightonZhang1-4/CLIBasicsFolder$ mv myfile_copy.txt myfile2.txt
+~/cli-basics-BrightonZhang1-4/CLIBasicsFolder$ mv myfile2.txt ..
+~/cli-basics-BrightonZhang1-4/CLIBasicsFolder$ ls ..
+CLIBasicsFolder  myfile2.txt  README.md  replit.nix  TerminalSession.txt
+~/cli-basics-BrightonZhang1-4/CLIBasicsFolder$ cd ..
+~/cli-basics-BrightonZhang1-4$ rm CLIBasicsFolder/myfile.txt
+~/cli-basics-BrightonZhang1-4$ rm -r myfile2.txt
+~/cli-basics-BrightonZhang1-4$ rm -r CLIBasicsFolder
+~/cli-basics-BrightonZhang1-4$ ls ..
